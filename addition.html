@@ -22,8 +22,7 @@
             })
             function updateResponse (e){
                 setState({
-                    num1 : state.num1,
-                    num2 : state.num2, 
+                    ...state, 
                     response: e.target.value
                 })
             }
